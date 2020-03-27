@@ -12,7 +12,7 @@
     </div>
 
     <form (ngSubmit)="addItem()">
-      <input type="text" [(ngModel)]="newShoppingItem.label" placeholder="Item" name="itemName" />
+      <input type="text" [(ngModel)]="newShoppingItem.label" placeholder="Enter Item" name="itemName" />
       <input type="checkbox" [(ngModel)]="newShoppingItem.completed"
   [ngModelOptions]="{standalone: true}"/>
       <button type="submit">+</button>
